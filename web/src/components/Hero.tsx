@@ -1,5 +1,6 @@
 import Image from "next/image";
 import nlwLogo from "../assets/nlw-spacetime-logo.svg";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -9,7 +10,7 @@ export function Hero() {
         <h1 className="text-5xl font-bold leading-tight text-gray-50">Your time capsule</h1>
         <p className="text-lg leading-relaxed">Collect memorable moments of your journey and share them with the world!</p>
       </div>
-      <a className="inline-block rounded-full bg-green-500 px-5 py-3 font-alt text-sm uppercase leading-none text-black hover:bg-green-600" href="">Add memory</a>
+      <Link className="inline-block rounded-full bg-green-500 px-5 py-3 font-alt text-sm uppercase leading-none text-black hover:bg-green-600" href="/memories/new">Add memory</Link>
     </div>
   );
 }
