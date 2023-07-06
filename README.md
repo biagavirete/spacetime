@@ -16,32 +16,58 @@ $ git clone https://github.com/biagavirete/spacetime.git
 $ cd spacetime
 ```
 
-**Running**
-> Installing dependencies
-
-```bash
-$ cd web
-$ npm install
-```
+**Running server**
+> Install dependencies
 
 ```bash
 $ cd server
 $ npm install
 ```
 
-> Running server
+> Add env variables
+
+```bash
+$ cp .env.example .env
+```
+
+```bash
+GITHUB_CLIENT_ID=""
+GITHUB_CLIENT_SECRET=""
+```
+
+> Execute Prisma to create tables
+
+```bash
+$ npx prisma migrate dev
+```
+
+> Run server
 
 ```bash
 $  cd server
 $  npm run dev
 ```
 
-> Starting application
+**Starting application**
+
+> Install dependencies
 
 ```bash
-$  cd web
+$ cd web
+$ npm install
+```
+
+> Run application
+
+```bash
 $  npm run dev
 ```
+
+ ➡️ Access [http://localhost:3000](http://localhost:3000)
+ 
+## To-do
+
+- [ ] Create memory details page
 
 ## Built with
 
