@@ -57,6 +57,16 @@ $ cd web
 $ npm install
 ```
 
+> Add env variable
+
+```bash
+cp .env.example .env
+```
+
+```bash
+NEXT_PUBLIC_GITHUB_CLIENT_ID=
+```
+
 > Run application
 
 ```bash
