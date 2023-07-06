@@ -2,9 +2,9 @@
 
 NextJS full-stack project using Typescript, Prisma, Fastify and Github for authentication. It is an application to share memories, that are displayed in a feed.
 
-<p align="center"><img src="https://github.com/biagavirete/spacetime/blob/assets/spacetime-homepage.png" width="50%"></p>
-<p align="center"><img src="https://github.com/biagavirete/spacetime/blob/assets/spacetime-feed.png" width="50%"></p>
-<p align="center"><img src="https://github.com/biagavirete/spacetime/blob/assets/spacetime-add-memory" width="50%"></p>
+<p align="center"><img src="https://github.com/biagavirete/spacetime/blob/master/assets/spacetime-homepage.png" width="50%"></p>
+<p align="center"><img src="https://github.com/biagavirete/spacetime/blob/master/assets/spacetime-feed.png" width="50%"></p>
+<p align="center"><img src="https://github.com/biagavirete/spacetime/blob/master/assets/spacetime-add-memory" width="50%"></p>
 
 ## Getting started
 
