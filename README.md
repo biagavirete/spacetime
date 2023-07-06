@@ -4,7 +4,7 @@ NextJS full-stack project using Typescript, Prisma, Fastify and Github for authe
 
 <p align="center"><img src="https://github.com/biagavirete/spacetime/blob/master/assets/spacetime-homepage.png" width="50%"></p>
 <p align="center"><img src="https://github.com/biagavirete/spacetime/blob/master/assets/spacetime-feed.png" width="50%"></p>
-<p align="center"><img src="https://github.com/biagavirete/spacetime/blob/master/assets/spacetime-add-memory" width="50%"></p>
+<p align="center"><img src="https://github.com/biagavirete/spacetime/blob/master/assets/spacetime-add-memory.png" width="50%"></p>
 
 ## Getting started
 
